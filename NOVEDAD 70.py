@@ -1,0 +1,12 @@
+modeloliquidacion= int(input("Inserte modelo liquidacion: "))
+grupoafinidad= int(input("Insertar grupo de afinidad: "))
+numerocuenta= int(input("Inserte numero de cuenta: "))
+fechaactual= int(input("Fecha actual AAAAMMDDHHMMSS: "))
+
+print(f"70044082{numerocuenta}000000000000000070{numerocuenta}044")
+print(f"{modeloliquidacion}")
+print(f"C")
+print(f"{grupoafinidad}")
+print(f"B B")
+print(f"CR0104DOWNGRAD")
+print(f"{fechaactual}")
